@@ -1,0 +1,82 @@
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/joint_unity_sub.cpp:[m[K In function ‘[01m[Kvoid subCallback(ros_unity_robotics::Joints_Unity_Robot_<std::allocator<void> >::ConstPtr&)[m[K’:
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/joint_unity_sub.cpp:8:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kros_unity_robotics::Joints_Unity_Robot {aka struct ros_unity_robotics::Joints_Unity_Robot_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kdata[m[K’
+   robot_msg.[01;31m[Kdata[m[K = msg->data;
+             [01;31m[K^~~~[m[K
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/joint_unity_sub.cpp:8:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct ros_unity_robotics::Joints_Unity_Robot_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdata[m[K’
+   robot_msg.data = msg->[01;31m[Kdata[m[K;
+                         [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/joint_unity_sub.cpp:1[m[K:
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kprint(NULL, void*&, ros::console::Level&, const char [77], int, const char [92], ros_unity_robotics::Joints_Unity_Robot_<std::allocator<void> >::_pick_pose_type&)[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;31m[K)[m[K
+                                                                                                                                                                                [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/joint_unity_sub.cpp:9:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+   [01;36m[KROS_INFO[m[K(robot_msg.pick_pose);
+   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:158:22:[m[K [01;36m[Knote: [m[Kcandidate: void ros::console::print(ros::console::FilterBase*, void*, ros::console::Level, const char*, int, const char*, const char*, ...)
+ ROSCONSOLE_DECL void [01;36m[Kprint[m[K(FilterBase* filter, void* logger, Level level,
+                      [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:158:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 7 from ‘[01m[Kros_unity_robotics::Joints_Unity_Robot_<std::allocator<void> >::_pick_pose_type {aka geometry_msgs::Pose_<std::allocator<void> >}[m[K’ to ‘[01m[Kconst char*[m[K’
+[01m[K/opt/ros/melodic/include/ros/console.h:162:22:[m[K [01;36m[Knote: [m[Kcandidate: void ros::console::print(ros::console::FilterBase*, void*, ros::console::Level, const stringstream&, const char*, int, const char*)
+ ROSCONSOLE_DECL void [01;36m[Kprint[m[K(FilterBase* filter, void* logger, Level level,
+                      [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:162:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 4 from ‘[01m[Kconst char [77][m[K’ to ‘[01m[Kconst stringstream& {aka const std::__cxx11::basic_stringstream<char>&}[m[K’
+In file included from [01m[K/opt/ros/melodic/include/ros/serialization.h:37:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/publisher.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/joint_unity_sub.cpp:1[m[K:
+/opt/ros/melodic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::MD5Sum<M>::value() [with M = boost::shared_ptr<const ros_unity_robotics::Joints_Unity_Robot_<std::allocator<void> > >][m[K’:
+[01m[K/opt/ros/melodic/include/ros/message_traits.h:227:102:[m[K   required from ‘[01m[Kconst char* ros::message_traits::md5sum() [with M = boost::shared_ptr<const ros_unity_robotics::Joints_Unity_Robot_<std::allocator<void> > >][m[K’
+[01m[K/opt/ros/melodic/include/ros/subscribe_options.h:89:49:[m[K   required from ‘[01m[Kvoid ros::SubscribeOptions::initByFullCallbackType(const string&, uint32_t, const boost::function<void(P)>&, const boost::function<boost::shared_ptr<typename ros::ParameterAdapter<P>::Message>()>&) [with P = boost::shared_ptr<const ros_unity_robotics::Joints_Unity_Robot_<std::allocator<void> > >&; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int; typename ros::ParameterAdapter<P>::Message = boost::shared_ptr<const ros_unity_robotics::Joints_Unity_Robot_<std::allocator<void> > >][m[K’
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:659:5:[m[K   required from ‘[01m[Kros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (*)(M), const ros::TransportHints&) [with M = boost::shared_ptr<const ros_unity_robotics::Joints_Unity_Robot_<std::allocator<void> > >&; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int][m[K’
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/joint_unity_sub.cpp:16:82:[m[K   required from here
+[01m[K/opt/ros/melodic/include/ros/message_traits.h:120:28:[m[K [01;31m[Kerror: [m[K‘[01m[K__s_getMD5Sum[m[K’ is not a member of ‘[01m[Kboost::shared_ptr<const ros_unity_robotics::Joints_Unity_Robot_<std::allocator<void> > >[m[K’
+     return [01;31m[KM::__s_getMD5Sum()[m[K.c_str();
+            [01;31m[K~~~~~~~~~~~~~~~~^~[m[K
+/opt/ros/melodic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::DataType<M>::value() [with M = boost::shared_ptr<const ros_unity_robotics::Joints_Unity_Robot_<std::allocator<void> > >][m[K’:
+[01m[K/opt/ros/melodic/include/ros/message_traits.h:236:104:[m[K   required from ‘[01m[Kconst char* ros::message_traits::datatype() [with M = boost::shared_ptr<const ros_unity_robotics::Joints_Unity_Robot_<std::allocator<void> > >][m[K’
+[01m[K/opt/ros/melodic/include/ros/subscribe_options.h:90:53:[m[K   required from ‘[01m[Kvoid ros::SubscribeOptions::initByFullCallbackType(const string&, uint32_t, const boost::function<void(P)>&, const boost::function<boost::shared_ptr<typename ros::ParameterAdapter<P>::Message>()>&) [with P = boost::shared_ptr<const ros_unity_robotics::Joints_Unity_Robot_<std::allocator<void> > >&; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int; typename ros::ParameterAdapter<P>::Message = boost::shared_ptr<const ros_unity_robotics::Joints_Unity_Robot_<std::allocator<void> > >][m[K’
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:659:5:[m[K   required from ‘[01m[Kros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (*)(M), const ros::TransportHints&) [with M = boost::shared_ptr<const ros_unity_robotics::Joints_Unity_Robot_<std::allocator<void> > >&; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int][m[K’
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/joint_unity_sub.cpp:16:82:[m[K   required from here
+[01m[K/opt/ros/melodic/include/ros/message_traits.h:137:30:[m[K [01;31m[Kerror: [m[K‘[01m[K__s_getDataType[m[K’ is not a member of ‘[01m[Kboost::shared_ptr<const ros_unity_robotics::Joints_Unity_Robot_<std::allocator<void> > >[m[K’
+     return [01;31m[KM::__s_getDataType()[m[K.c_str();
+            [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/subscription_callback_helper.h:35:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscriber.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/joint_unity_sub.cpp:1[m[K:
+/opt/ros/melodic/include/ros/parameter_adapter.h: In instantiation of ‘[01m[Kstatic ros::ParameterAdapter<M>::Parameter ros::ParameterAdapter<M>::getParameter(const Event&) [with M = boost::shared_ptr<const ros_unity_robotics::Joints_Unity_Robot_<std::allocator<void> > >&; ros::ParameterAdapter<M>::Parameter = boost::shared_ptr<const ros_unity_robotics::Joints_Unity_Robot_<std::allocator<void> > >&; ros::ParameterAdapter<M>::Event = ros::MessageEvent<const boost::shared_ptr<const ros_unity_robotics::Joints_Unity_Robot_<std::allocator<void> > > >; typename boost::remove_reference<typename boost::remove_const<M>::type>::type = boost::shared_ptr<const ros_unity_robotics::Joints_Unity_Robot_<std::allocator<void> > >][m[K’:
+[01m[K/opt/ros/melodic/include/ros/subscription_callback_helper.h:144:48:[m[K   required from ‘[01m[Kvoid ros::SubscriptionCallbackHelperT<P, Enabled>::call(ros::SubscriptionCallbackHelperCallParams&) [with P = boost::shared_ptr<const ros_unity_robotics::Joints_Unity_Robot_<std::allocator<void> > >&; Enabled = void][m[K’
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/joint_unity_sub.cpp:22:1:[m[K   required from here
+[01m[K/opt/ros/melodic/include/ros/parameter_adapter.h:78:30:[m[K [01;31m[Kerror: [m[Kbinding reference of type ‘[01m[Kros::ParameterAdapter<boost::shared_ptr<const ros_unity_robotics::Joints_Unity_Robot_<std::allocator<void> > >&>::Parameter {aka boost::shared_ptr<const ros_unity_robotics::Joints_Unity_Robot_<std::allocator<void> > >&}[m[K’ to ‘[01m[Kconst boost::shared_ptr<const ros_unity_robotics::Joints_Unity_Robot_<std::allocator<void> > >[m[K’ discards qualifiers
+     return *event.getMessage([01;31m[K)[m[K;
+                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/publisher.h:34:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/joint_unity_sub.cpp:1[m[K:
+/opt/ros/melodic/include/ros/serialization.h: In instantiation of ‘[01m[Kstatic void ros::serialization::Serializer<T>::read(Stream&, typename boost::call_traits<T>::reference) [with Stream = ros::serialization::IStream; T = boost::shared_ptr<const ros_unity_robotics::Joints_Unity_Robot_<std::allocator<void> > >; typename boost::call_traits<T>::reference = boost::shared_ptr<const ros_unity_robotics::Joints_Unity_Robot_<std::allocator<void> > >&][m[K’:
+[01m[K/opt/ros/melodic/include/ros/serialization.h:163:22:[m[K   required from ‘[01m[Kvoid ros::serialization::deserialize(Stream&, T&) [with T = boost::shared_ptr<const ros_unity_robotics::Joints_Unity_Robot_<std::allocator<void> > >; Stream = ros::serialization::IStream][m[K’
+[01m[K/opt/ros/melodic/include/ros/subscription_callback_helper.h:136:21:[m[K   required from ‘[01m[Kros::VoidConstPtr ros::SubscriptionCallbackHelperT<P, Enabled>::deserialize(const ros::SubscriptionCallbackHelperDeserializeParams&) [with P = boost::shared_ptr<const ros_unity_robotics::Joints_Unity_Robot_<std::allocator<void> > >&; Enabled = void; ros::VoidConstPtr = boost::shared_ptr<const void>][m[K’
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/joint_unity_sub.cpp:22:1:[m[K   required from here
+[01m[K/opt/ros/melodic/include/ros/serialization.h:136:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass boost::shared_ptr<const ros_unity_robotics::Joints_Unity_Robot_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Kdeserialize[m[K’
+     [01;31m[Kt.deserialize[m[K(stream.getData());
+     [01;31m[K~~^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/joint_unity_sub.dir/src/joint_unity_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/joint_unity_sub.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

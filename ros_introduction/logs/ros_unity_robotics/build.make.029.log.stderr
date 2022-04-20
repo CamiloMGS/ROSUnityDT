@@ -1,0 +1,11 @@
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/pos_sub.cpp:[m[K In function ‘[01m[Kvoid subCallback(const ConstPtr&)[m[K’:
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/pos_sub.cpp:37:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kscale[m[K’ was not declared in this scope
+   scale_pub.publish([01;31m[Kscale[m[K);
+                     [01;31m[K^~~~~[m[K
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/pos_sub.cpp:37:21:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kscalb[m[K’
+   scale_pub.publish([01;36m[Kscale[m[K);
+                     [01;36m[K^~~~~[m[K
+                     [32m[Kscalb[m[K
+make[2]: *** [CMakeFiles/pos_sub.dir/src/pos_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pos_sub.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,47 @@
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/pos_sub.cpp:[m[K In function ‘[01m[Kvoid subCallback(const ConstPtr&)[m[K’:
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/pos_sub.cpp:16:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed_msg[m[K’ was not declared in this scope
+   if([01;31m[Kspeed_msg[m[K.data < 3)
+      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/pos_sub.cpp:16:6:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kpos_msg[m[K’
+   if([01;36m[Kspeed_msg[m[K.data < 3)
+      [01;36m[K^~~~~~~~~[m[K
+      [32m[Kpos_msg[m[K
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/pos_sub.cpp:18:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kscale[m[K’ was not declared in this scope
+     [01;31m[Kscale[m[K.x = 0.8;
+     [01;31m[K^~~~~[m[K
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/pos_sub.cpp:18:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kscalb[m[K’
+     [01;36m[Kscale[m[K.x = 0.8;
+     [01;36m[K^~~~~[m[K
+     [32m[Kscalb[m[K
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/pos_sub.cpp:25:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kscale[m[K’ was not declared in this scope
+     [01;31m[Kscale[m[K.x = 0.3;
+     [01;31m[K^~~~~[m[K
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/pos_sub.cpp:25:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kscalb[m[K’
+     [01;36m[Kscale[m[K.x = 0.3;
+     [01;36m[K^~~~~[m[K
+     [32m[Kscalb[m[K
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/pos_sub.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kscale[m[K’ was not declared in this scope
+     [01;31m[Kscale[m[K.x = 1;
+     [01;31m[K^~~~~[m[K
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/pos_sub.cpp:32:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kscalb[m[K’
+     [01;36m[Kscale[m[K.x = 1;
+     [01;36m[K^~~~~[m[K
+     [32m[Kscalb[m[K
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/pos_sub.cpp:37:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kscale[m[K’ was not declared in this scope
+   scale_pub.publish([01;31m[Kscale[m[K);
+                     [01;31m[K^~~~~[m[K
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/pos_sub.cpp:37:21:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kscalb[m[K’
+   scale_pub.publish([01;36m[Kscale[m[K);
+                     [01;36m[K^~~~~[m[K
+                     [32m[Kscalb[m[K
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/pos_sub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/pos_sub.cpp:44:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed_pub[m[K’ was not declared in this scope
+   [01;31m[Kspeed_pub[m[K = node_handle.advertise<geometry_msgs::Point>("speed", 10);
+   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/pos_sub.cpp:44:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kscale_pub[m[K’
+   [01;36m[Kspeed_pub[m[K = node_handle.advertise<geometry_msgs::Point>("speed", 10);
+   [01;36m[K^~~~~~~~~[m[K
+   [32m[Kscale_pub[m[K
+make[2]: *** [CMakeFiles/pos_sub.dir/src/pos_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pos_sub.dir/all] Error 2
+make: *** [all] Error 2

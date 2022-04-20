@@ -1,0 +1,8 @@
+prefix=/home/medina/ros_introduction/install
+
+Name: ros_unity_robotics
+Description: Description of ros_unity_robotics
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

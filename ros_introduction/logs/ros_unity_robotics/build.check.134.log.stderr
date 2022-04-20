@@ -1,0 +1,17 @@
+[31m[1mCMake Error[0m at /home/medina/ros_introduction/build/ros_unity_robotics/cmake/ros_unity_robotics-genmsg.cmake:3 (message):
+  Could not find messages which
+  '/home/medina/ros_introduction/src/ros_unity_robotics/srv/trajectory_planner.srv'
+  depends on.  Did you forget to specify generate_messages(DEPENDENCIES ...)?
+
+  Cannot locate message [RobotTrajectory]: unknown package [moveit_msgs] on
+  search path [{{'std_msgs': ['/opt/ros/melodic/share/std_msgs/cmake/../msg'],
+  'sensor_msgs': ['/opt/ros/melodic/share/sensor_msgs/cmake/../msg'],
+  'ros_unity_robotics':
+  ['/home/medina/ros_introduction/src/ros_unity_robotics/msg'],
+  'geometry_msgs': ['/opt/ros/melodic/share/geometry_msgs/cmake/../msg']}}]
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/melodic/share/genmsg/cmake/genmsg-extras.cmake:307 (include)
+  CMakeLists.txt:75 (generate_messages)
+
+
+make: *** [cmake_check_build_system] Error 1

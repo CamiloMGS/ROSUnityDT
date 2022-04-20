@@ -1,0 +1,14 @@
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/joint_unity_sub.cpp:5:58:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KsubCallback[m[K’ declared void
+ void subCallback(ros_unity_robotics::Joints_Unity_Robot::[01;31m[Kallocator[m[K<void> >::_pick_pose_type& msg)
+                                                          [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/joint_unity_sub.cpp:5:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kallocator[m[K’ is not a member of ‘[01m[Kros_unity_robotics::Joints_Unity_Robot {aka ros_unity_robotics::Joints_Unity_Robot_<std::allocator<void> >}[m[K’
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/joint_unity_sub.cpp:5:68:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kvoid[m[K’
+ void subCallback(ros_unity_robotics::Joints_Unity_Robot::allocator<[01;31m[Kvoid[m[K> >::_pick_pose_type& msg)
+                                                                    [01;31m[K^~~~[m[K
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/joint_unity_sub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/joint_unity_sub.cpp:14:71:[m[K [01;31m[Kerror: [m[K‘[01m[KsubCallback[m[K’ was not declared in this scope
+   ros::Subscriber pos_sub = node_handle.subscribe("joints_robot", 10, [01;31m[KsubCallback[m[K);
+                                                                       [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/joint_unity_sub.dir/src/joint_unity_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/joint_unity_sub.dir/all] Error 2
+make: *** [all] Error 2

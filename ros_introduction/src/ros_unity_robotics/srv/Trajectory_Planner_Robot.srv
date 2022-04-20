@@ -1,0 +1,4 @@
+Robot_Joints joints_input
+geometry_msgs/Pose target_pose
+---
+moveit_msgs/RobotTrajectory[] trajectories

@@ -1,0 +1,37 @@
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target moveit_msgs_generate_messages_cpp
+[  0%] Built target _ros_unity_robotics_generate_messages_check_deps_Color_Object
+[  0%] Built target _ros_unity_robotics_generate_messages_check_deps_SetColor
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target _ros_unity_robotics_generate_messages_check_deps_Robot_Joints
+[  0%] Built target _ros_unity_robotics_generate_messages_check_deps_Joints_State_Panda
+[  0%] Built target _ros_unity_robotics_generate_messages_check_deps_Trajectory_Planner_Robot
+[  2%] [32m[1mLinking CXX executable /home/medina/ros_introduction/devel/.private/ros_unity_robotics/lib/ros_unity_robotics/pos_pub[0m
+[  5%] Built target pos_pub
+[  5%] Built target moveit_msgs_generate_messages_eus
+[  5%] Built target sensor_msgs_generate_messages_eus
+[  5%] Built target geometry_msgs_generate_messages_eus
+[  5%] Built target std_msgs_generate_messages_eus
+[  5%] Built target sensor_msgs_generate_messages_nodejs
+[  5%] Built target moveit_msgs_generate_messages_nodejs
+[  5%] Built target geometry_msgs_generate_messages_nodejs
+[  5%] Built target std_msgs_generate_messages_nodejs
+[  5%] Built target moveit_msgs_generate_messages_lisp
+[  5%] Built target geometry_msgs_generate_messages_lisp
+[  5%] Built target sensor_msgs_generate_messages_lisp
+[  5%] Built target std_msgs_generate_messages_lisp
+[  5%] Built target geometry_msgs_generate_messages_py
+[  5%] Built target sensor_msgs_generate_messages_py
+[  5%] Built target std_msgs_generate_messages_py
+[  5%] Built target moveit_msgs_generate_messages_py
+[  8%] [32m[1mLinking CXX executable /home/medina/ros_introduction/devel/.private/ros_unity_robotics/lib/ros_unity_robotics/pos_sub[0m
+[ 11%] Built target pos_sub
+[ 26%] Built target ros_unity_robotics_generate_messages_cpp
+[ 44%] Built target ros_unity_robotics_generate_messages_eus
+[ 58%] Built target ros_unity_robotics_generate_messages_nodejs
+[ 73%] Built target ros_unity_robotics_generate_messages_lisp
+[ 94%] Built target ros_unity_robotics_generate_messages_py
+[ 97%] [32m[1mLinking CXX executable /home/medina/ros_introduction/devel/.private/ros_unity_robotics/lib/ros_unity_robotics/set_color_service_server[0m
+[100%] Built target set_color_service_server
+[100%] Built target ros_unity_robotics_generate_messages

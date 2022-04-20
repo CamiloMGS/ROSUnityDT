@@ -1,0 +1,7 @@
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/pos_sub.cpp:[m[K In function ‘[01m[Kvoid subCallback(const ConstPtr&)[m[K’:
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/pos_sub.cpp:21:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kpos_msg[m[K’
+   [01;31m[Kpos_msg[m[K.data = pos->data;
+   [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/pos_sub.dir/src/pos_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pos_sub.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,5 @@
+[31m[1mCMake Error[0m at /home/medina/ros_introduction/src/ros_unity_robotics/CMakeLists.txt:52 (add_message_files):
+  Unknown CMake command "add_message_files".
+
+
+make: *** [cmake_check_build_system] Error 1

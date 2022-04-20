@@ -1,0 +1,11 @@
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/set_color_service_server.cpp:[m[K In function ‘[01m[Kbool SetColorObject(ros_unity_robotics::SetColor::Request&, ros_unity_robotics::SetColor::Response&)[m[K’:
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/set_color_service_server.cpp:19:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kes[m[K’ was not declared in this scope
+     [01;31m[Kes[m[K.set_color.color_name = "No color available";
+     [01;31m[K^~[m[K
+[01m[K/home/medina/ros_introduction/src/ros_unity_robotics/src/set_color_service_server.cpp:19:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kres[m[K’
+     [01;36m[Kes[m[K.set_color.color_name = "No color available";
+     [01;36m[K^~[m[K
+     [32m[Kres[m[K
+make[2]: *** [CMakeFiles/set_color_service_server.dir/src/set_color_service_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/set_color_service_server.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,6 @@
+[31m[1mCMake Error[0m at /home/medina/ros_introduction/src/ros_unity_robotics/CMakeLists.txt:168 (add_dependencies):
+  The dependency target "ros_unity_robotics_generate_messages_cpp" of target
+  "set_color_service_server" does not exist.
+
+
+make: *** [cmake_check_build_system] Error 1

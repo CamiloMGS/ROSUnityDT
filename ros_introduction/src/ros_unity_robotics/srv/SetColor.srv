@@ -1,0 +1,4 @@
+string object_name
+---
+bool is_color_available
+Color_Object set_color

@@ -1,0 +1,2 @@
+set(ros_unity_robotics_MESSAGE_FILES "/home/medina/ros_introduction/src/ros_unity_robotics/msg/Color_Object.msg;/home/medina/ros_introduction/src/ros_unity_robotics/msg/Robot_Joints.msg")
+set(ros_unity_robotics_SERVICE_FILES "/home/medina/ros_introduction/src/ros_unity_robotics/srv/SetColor.srv;/home/medina/ros_introduction/src/ros_unity_robotics/srv/Joints_State_Panda.srv;/home/medina/ros_introduction/src/ros_unity_robotics/srv/Trajectory_Planner_Robot.srv")
